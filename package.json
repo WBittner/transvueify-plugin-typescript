@@ -1,0 +1,28 @@
+{
+  "name": "transvueify-plugin-typescript",
+  "version": "1.0.2",
+  "description": "A TypeScript plugin for Transvueify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WBittner/transvueify-plugin-typescript.git"
+  },
+  "keywords": [
+    "Vue",
+    "TypeScript",
+    "Transvueify"
+  ],
+  "author": "William Bittner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WBittner/transvueify-plugin-typescript/issues"
+  },
+  "homepage": "https://github.com/WBittner/transvueify-plugin-typescript#readme",
+  "dependencies": {
+    "find-config": "^1.0.0",
+    "typescript": "^2.5.3"
+  }
+}
