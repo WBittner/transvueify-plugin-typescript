@@ -1,7 +1,7 @@
 let ts = require("typescript");
 
 module.exports = function (compiledVueFile, filename) {
-  if (!compiledVueFile.script) {
+  if (!compiledVueFile.script || !compiledVueFile.script.attrs || compiledVueFile.script.attrs.lang !== "ts") {
     return compiledVueFile;
   }
 

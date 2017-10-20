@@ -1,6 +1,6 @@
 {
   "name": "transvueify-plugin-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript plugin for Transvueify",
   "main": "index.js",
   "scripts": {
